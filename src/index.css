@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: dana;
+  src: url(font/DanaDana--undefined\ \(1\).woff);
+}
+* {
+  font-family: dana;
+}

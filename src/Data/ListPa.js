@@ -11,7 +11,7 @@ const menuItems = [
     id: 1,
     title: "داشبورد",
     icon: LayoutDashboard,
-    path: "/admin",
+    path: "/",
   },
   {
     id: 2,

@@ -19,7 +19,7 @@ function Asid() {
               <NavLink
                 key={item.id}
                 to={item.path}
-                end={item.path === ""}
+                end={item.path === "/"}
                 className={({ isActive }) =>
                   `flex items-center justify-between px-4 py-3 rounded-xl transition-all duration-300 ${
                     isActive
@@ -36,9 +36,9 @@ function Asid() {
             );
           })}
         </div>
-        <hr className="h-1 w-full pl-5 pr-5 mt-4 bg-[#64748ba9]" />
-        <div className="w-full text-center items-center">
-          <button className="flex gap-2 text-white justify-between mt-5 bg-[#1A1A37] rounded-xl p-3">
+        <div className="w-full h-px mt-5 bg-[#64748ba9] rotate-180"></div>
+        <div className="w-full">
+          <button className="flex w-full gap-4 text-white mt-6 bg-[#1A1A37] rounded-xl p-3">
             <LogOut />
             <p>خروج از حساب کاربری</p>
           </button>

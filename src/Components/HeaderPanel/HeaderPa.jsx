@@ -4,7 +4,7 @@ import img from "../../Image/images.webp";
 
 function HeaderPa() {
   return (
-    <div className="w-full flex justify-between items-center mt-5 pr-3">
+    <div className="w-full flex justify-between items-center mt-5">
       {/* فرم جستجو */}
       <div className="relative">
         <Search
@@ -49,7 +49,7 @@ function HeaderPa() {
             <img
               src={img}
               alt="تصویر پروفایل"
-              className="w-12 h-12 rounded-full object-cover"
+              className="w-12 h-12 rounded-full object-cover border border-[#7C3AED]"
             />
           </div>
         </div>

@@ -2,6 +2,7 @@ import React from "react";
 import HeaderPa from "../../Components/HeaderPanel/HeaderPa";
 import Asid from "../../Components/Aside/Asid";
 import HeNameBa from "../../Components/HeaderNameAndBack/HeNameBa";
+import HeadSerch from "../../Components/HeaderSerching/HeadSerch";
 
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
           <HeaderPa />
           <div className="mt-10">
             <HeNameBa />
+          </div>
+          <div>
+            <HeadSerch />
           </div>
         </div>
       </div>

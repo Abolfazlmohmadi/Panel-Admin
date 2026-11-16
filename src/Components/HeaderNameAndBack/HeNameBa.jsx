@@ -3,7 +3,7 @@ import React from "react";
 function HeNameBa() {
   return (
     <div dir="rtl" className="w-full">
-      <div className="relative overflow-hidden rounded-2xl bg-[#171730] flex items-center justify-between px-8 py-6 min-h-[150px]">
+      <div className="relative overflow-hidden rounded-2xl bg-[#171730] flex items-center justify-between px-8 min-h-[150px]">
         {/* لکه‌های نورانی بنفش در پس‌زمینه */}
         <div className="pointer-events-none absolute -left-24 -bottom-28 w-[460px] h-[320px] rounded-full bg-[#6d28d9] opacity-50 blur-3xl" />
 

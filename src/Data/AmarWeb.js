@@ -1,11 +1,11 @@
 import { Users, ShoppingCart, Banknote, Package } from "lucide-react";
 
-const StatData = [
+const AmarWeb = [
   {
     id: 1,
     title: "کل کاربران",
     value: "۲۴,۸۹۰",
-    percent: "+۱۲٪",
+    percent: "۱۲٪+",
     icon: Users,
     color: "purple",
   },
@@ -13,7 +13,7 @@ const StatData = [
     id: 2,
     title: "کل سفارش‌ها",
     value: "۳,۷۴۲",
-    percent: "+۸٪",
+    percent: "۸٪+",
     icon: ShoppingCart,
     color: "green",
   },
@@ -21,7 +21,7 @@ const StatData = [
     id: 3,
     title: "درآمد کل",
     value: "۹۸,۷۵۰,۰۰۰ تومان",
-    percent: "+۱۵٪",
+    percent: "۱۵٪+",
     icon: Banknote,
     color: "orange",
   },
@@ -29,10 +29,10 @@ const StatData = [
     id: 4,
     title: "کل محصولات",
     value: "۱,۲۸۰",
-    percent: "+۱۰٪",
+    percent: "۱۰٪+",
     icon: Package,
     color: "blue",
   },
 ];
 
-export default StatData;
+export default AmarWeb;

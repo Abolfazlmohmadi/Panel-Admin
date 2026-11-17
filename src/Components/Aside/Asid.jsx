@@ -6,7 +6,7 @@ import { LogOut } from "lucide-react";
 function Asid() {
   return (
     <>
-      <div className="p-2">
+      <div className="p-2 fixed">
         <p className="text-white text-2xl font-bold mt-8 text-center">
           پنل مدیریت
         </p>

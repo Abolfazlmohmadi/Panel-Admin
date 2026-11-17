@@ -19,14 +19,7 @@ function HeaderPa() {
         />
       </div>
 
-      {/* ابزارهای هدر */}
       <div className="flex gap-3 items-center">
-        {/* تغییر تم */}
-        <button className="flex h-10 w-10 items-center justify-center rounded-xl text-[#CBD5E1] transition hover:bg-[#22203D]">
-          <Sun size={21} strokeWidth={2} />
-        </button>
-
-        {/* اعلان‌ها */}
         <button className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-[#17172D] text-[#A78BFA] shadow-[0_0_15px_rgba(139,92,246,0.15)] transition hover:bg-[#22203D]">
           <Bell size={21} strokeWidth={2.2} />
 
@@ -35,10 +28,8 @@ function HeaderPa() {
           </span>
         </button>
 
-        {/* جداکننده */}
         <div className="w-8 h-px bg-[#64748ba9] rotate-90"></div>
 
-        {/* اطلاعات کاربر */}
         <div className="flex items-center gap-5">
           <div>
             <p className="text-[#F8FAFC]">علی</p>

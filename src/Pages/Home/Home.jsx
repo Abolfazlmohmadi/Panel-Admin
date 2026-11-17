@@ -3,6 +3,7 @@ import HeaderPa from "../../Components/HeaderPanel/HeaderPa";
 import Asid from "../../Components/Aside/Asid";
 import HeNameBa from "../../Components/HeaderNameAndBack/HeNameBa";
 import HeadSerch from "../../Components/HeaderSerching/HeadSerch";
+import Nemodarr from "../../Components/NmedarAmar/Nemodarr";
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
           </div>
           <div>
             <HeadSerch />
+          </div>
+          <div>
+            <Nemodarr />
           </div>
         </div>
       </div>
